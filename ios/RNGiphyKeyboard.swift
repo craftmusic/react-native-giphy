@@ -21,7 +21,7 @@ open class RNGiphyKeyboard: RCTEventEmitter, GiphyDelegate {
 
     if let apiKey = Bundle.main.infoDictionary?["GiphyApiKey"] as? String {
       let verificationMode = Bundle.main.infoDictionary?["GiphyVerificationMode"] as? Bool ?? false
-      Giphy.configure(apiKey: apiKey, verificationMode: verificationMode)
+      Giphy.configure(apiKey: FxuTW7q4r4F3ywME6sAh6VaDGVOYkTxY, verificationMode: true)
     }
   }
 
